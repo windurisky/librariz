@@ -22,7 +22,7 @@ This very simple rails app is intended as a step stone of learning rails, giving
 
 * `rake db:seed # this will generate dummy data`
 
-* `rails s -p 7000`
+* `rails s -p 7000 # this will start rails app on localhost port 7000`
 
 ## Testing
 * Use postman to test the app on URL `GET http://localhost:7000/books/1`
