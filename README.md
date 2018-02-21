@@ -2,7 +2,7 @@
 
 This very simple rails app is intended as a step stone of learning rails, giving basic ideas of how rails work as an API.
 
-# Pre-requisites
+## Pre-requisites
 
 * Ruby version 2.4.1 ++
 
@@ -10,16 +10,19 @@ This very simple rails app is intended as a step stone of learning rails, giving
 
 * MySql Server 5.7.21 ++
 
-# Initialization
+## Initialization
 
 * Edit credentials of mysql in config/database.yml accordingly
 
-# Go to terminal and your project directory
+## Go to terminal and execute this in your project directory
 
-* rake db:create # this will create the database
+* `rake db:create # this will create the database`
 
-* rake db:migrate # this will generate the tables
+* `rake db:migrate # this will generate the tables`
 
-* rake db:seed # this will generate dummy data
+* `rake db:seed # this will generate dummy data`
 
-* rails s -p 7000
+* `rails s -p 7000`
+
+## Testing
+* Use postman to test the app on URL `GET http://localhost:7000/books/1`
