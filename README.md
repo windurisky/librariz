@@ -15,6 +15,9 @@ This very simple rails app is intended as a step stone of learning rails, giving
 * Edit credentials of mysql in config/database.yml accordingly
 
 ## Go to terminal and execute this in your project directory
+* `gem install bundler # this will install bundler gem` 
+
+* `bundle install # this will let bundler to install the other gems written in Gemfile`
 
 * `rake db:create # this will create the database`
 
