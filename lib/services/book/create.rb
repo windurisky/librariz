@@ -6,7 +6,7 @@ module Services
       end
 
       def run!
-        Book.create(@form.hashify)
+        ::Book.create!(@form.hashify)
       end
     end
   end

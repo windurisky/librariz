@@ -8,4 +8,5 @@ class ApplicationController < ActionController::API
   def admin_auth
     # TODO: to be implemented later
   end
+  
 end
