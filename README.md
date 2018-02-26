@@ -10,7 +10,7 @@ This very simple rails app is intended as a step stone of learning rails, giving
 
 * MySql Server 5.7.21 ++
 
-## Initialization
+## Initial Configuration
 
 * Edit credentials of mysql in config/database.yml accordingly
 
