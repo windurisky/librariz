@@ -1,5 +1,9 @@
 class BooksController < ApplicationController
 
+  def all
+    # TODO: get all books here
+  end
+
   def show
     book = ::Book.find_by_id params[:id]
     render_response(book.as_json, 200)
