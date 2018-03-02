@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/windurisky/librariz.svg?branch=master)](https://travis-ci.org/windurisky/librariz)
-
-# LIBRARIZ
+# LIBRARIZ  [![Build Status](https://travis-ci.org/windurisky/librariz.svg?branch=master)](https://travis-ci.org/windurisky/librariz)
 
 This very simple rails app is intended as a step stone of learning rails, giving basic ideas of how rails work as an API.
 
